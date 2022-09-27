@@ -1,0 +1,25 @@
+nav{
+    direction: rtl;
+    background-color: #213556 !important;
+    /* background-color: #898786 !important; */
+}
+.logo{
+    width: fit-content;
+}
+nav img{
+    max-width: 60px;
+}
+
+
+
+
+
+@media (max-width: 991.98px) { 
+    nav ul {
+        text-align: center;
+        height: 100vh;
+    }
+    nav img{
+        max-width: 40px;
+    }
+}

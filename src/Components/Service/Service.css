@@ -1,0 +1,16 @@
+.card-body a{
+    background-color: #898786 !important;
+}
+.card-body a:hover {
+    background-color: #F84539 !important;
+}
+.card-img{
+    overflow: hidden;
+}
+.card:hover .card-img-top {
+    transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -o-transform: scale(1.5);
+}

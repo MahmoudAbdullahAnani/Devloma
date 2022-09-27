@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  background-color: #213556 !important;
+  font-family: 'Amiri', serif;
+  font-family: 'Crimson Text', serif;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Mono', monospace;
+  font-family: 'Square Peg', cursive;
+  font-family: 'Tajawal', sans-serif;
+  /* height: 20000px; */
+}
+*{
+  transition-duration: .7s;
+}
+*::selection{
+  background-color: #F84539;
+}
+.active{
+  border-bottom: #898786 2px solid !important;
+  background-color: #F84539;
+}
+naV{
+  background-color: #898786 !important;
+}
+.galryeVideo > iframe{
+  width: 100%;
+  height: 300px;
+}
+.galryeVideoIframeWidth {
+  width: 100%;
+}
+.galryeVideoIframeHeight{
+  height: 300px;
+}
+

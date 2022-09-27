@@ -1,4 +1,4 @@
 # Devloma
 Startup Devloma website
-<h1>دڤلوما لإنشاء و تطوير تطبيقات الموبايل و مواقع الويب
-نحلل و نخطط وننفذ للوصول الي النجاح المطلوب المتمثل في ارضاء العملاء<h1>
+<h1>dvloma to create and develop mobile applications and websites
+We analyze, plan and implement to reach the desired success of customer satisfaction<h1>

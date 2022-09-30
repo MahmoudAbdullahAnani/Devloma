@@ -3,6 +3,7 @@ import FirstAbout from "../../Components/About-Devloma/FirstAbout";
 import Thoughts from "../../Components/Thoughts/Thoughts";
 import pana from '../../Images/About Images/Online world.gif'
 import About from "../../Components/AboutTeam/About";
+import CallUs from "../../Components/Call Us/Call-Us";
 
 const AboutUs = () => {
     return (
@@ -15,6 +16,7 @@ const AboutUs = () => {
                 <Thoughts disc="لدينا مجموعة من المصممين ذوي خبرة كبيرة جدا في مجال التصميم و انشاء الفديوهات القصيرة علي اعلي مستوي" icon="fa-solid fa-pen-nib fs-4 text-white" TitleIcon="تصاميم احترافية"/>
             </div>
             <About btn="تواصل معنا الان " src={pana} alt='pana' title='من نحن' aboutTextTop="نحن فريق من المتخصصين في البرمجة و التسويق الالكتروني و ايضا كل ما يتعلق بالتصميم و صناعة الرسوم المتحركة." />
+            <CallUs title="اتصل بنا" disc="توصل معنا علي مدار ال 24 ساعة وتحدث مع مهندسين مختصيين"  />
         </>
     );
 }

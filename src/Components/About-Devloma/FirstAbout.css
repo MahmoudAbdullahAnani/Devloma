@@ -1,0 +1,41 @@
+.aboutContent{
+    direction: rtl;
+}
+.animation{
+    width: 100px;
+    height: 10px;
+    background-color: #898786;
+    position: relative;
+}
+.animation-loder1{
+    position: absolute;
+    height: 100%;
+    /*left: calc(100% - 12px);
+    */width: 10px;
+    background-color: red;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    animation: loderAbout 2s  ease-in-out  infinite alternate ;
+    -webkit-animation: loderAbout 2s  ease-in-out  infinite alternate ;
+}
+.animation-loder2{
+    position: absolute;
+    height: 100%;
+    /*left: calc(100% - 12px);
+    */width: 10px;
+    background-color: red;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    animation: loderAbout 2s 1s ease-in-out  infinite alternate ;
+    -webkit-animation: loderAbout 2s 1s ease-in-out  infinite alternate ;
+}
+@keyframes loderAbout {
+    from {left: 3px;}
+    to {left: calc(100% - 12px);}
+}

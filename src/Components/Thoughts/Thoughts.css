@@ -1,0 +1,9 @@
+.showHeader{
+    overflow: hidden;
+    height: 0px ;
+    /* max-height: 67%; */
+    /* width: 80%; */
+}
+.Thoughts:hover .showHeader{
+    height: 100% !important;
+}

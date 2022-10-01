@@ -2,7 +2,7 @@ import React from "react";
 import './Thoughts.css'
 const Thoughts = (props) => {
     return (
-        <div className="bg-white p-4 d-flex align-items-center justify-center col-xs-10  col-md-5 col-lg-2 Thoughts  rounded relative">
+        <div className="bg-slate-400 p-4 d-flex align-items-center justify-center col-xs-10  col-md-5 col-lg-2 Thoughts  rounded relative">
             <div className="showHeader w-100 text-center rounded bg-slate-700 absolute">
                 <h4 className="bg-slate-100  font-extrabold pt-2 ">{props.TitleIcon}</h4>
                 <p className="text-center font-medium p-2 pb-3 text-white">{props.disc}</p>

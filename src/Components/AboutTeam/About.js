@@ -1,18 +1,19 @@
 import React from "react";
+import './About.css'
 const About = (props) => {
     return (
-        <div className="row m-0 flex-wrap-reverse justify-around w-100 pt-lg-4 pb-4  px-3">
+        <div className="row m-0 about-sc flex-wrap-reverse justify-around w-100 pt-lg-4 pb-4  px-3">
             <div className="aboutImage  col-xs-11 col-lg-6">
                 <img src={props.src} className='rounded-md m-auto' alt={props.alt} />
             </div>
-            <div className="aboutContent  lh-base my-3 text-white col-xs-11 col-lg-4">
+            <div className="aboutContent  lh-base my-3 text-black col-xs-11 col-lg-4">
                 <h2 className="">{props.title}</h2>
                 {/* animation place */}
                 <div className="animation me-2 rounded">
                     <span className="animation-loder1"></span>
                     <span className="animation-loder2"></span>
                 </div>
-                <p className="mt-4 ">{props.aboutTextTop}</p>
+                <p className="mt-4 fs-5 font-bold">{props.aboutTextTop}</p>
                 <div className="accordion" id="accordionExample">
                     <div className="accordion-item">
                         <h2 className="accordion-header" id="headingOne1">
